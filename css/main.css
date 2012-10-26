@@ -121,7 +121,7 @@ img#bg{
 
 #content-wrapper {
 	background-color: rgba(24, 24, 24, 0.47);
-	padding-bottom: 1000px;
+	padding-bottom: 400px;
 	margin-top: 10px;
 }
 
@@ -133,7 +133,7 @@ img#bg{
 
 
 footer {
-	margin-bottom: 1000px;
+	margin-bottom: 0px;
 }
 
 
