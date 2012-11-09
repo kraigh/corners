@@ -12,7 +12,6 @@
         <script type="text/javascript" src="//use.typekit.net/ymg1ocf.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
         <style>
             body {
                 padding-top: 60px;
@@ -21,8 +20,8 @@
         </style>
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/foundation-responsive-video.css"
         <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
-
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -37,15 +36,11 @@
               js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
               fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
-
-
         <div class="container">
-
 			<div class="headline-container">
 				<h1 id="the">The</h1>
 				<h1 id="responsive_headline">Corners</h1>
 			</div> <!--/.headline-container-->
-
 		<div class="row">
 		<div class="span12">
 			<div id="social-icons">
@@ -68,7 +63,11 @@
            <div class="row">
            <div class="span8 main-content">
                 <h1>Latest Videos</h1>
-                <iframe width="640" height="360" src="http://www.youtube.com/embed/videoseries?list=PLILBnfuUCSQVus34XyV9SCxqThqvtjiDn&amp;hl=en_US" frameborder="0" allowfullscreen></iframe>
+                <div class="video-wrapper">
+                <div class="flex-video">
+                    <iframe width="640" height="360" src="http://www.youtube.com/embed/videoseries?list=PLILBnfuUCSQVus34XyV9SCxqThqvtjiDn&amp;hl=en_US" frameborder="0" allowfullscreen></iframe>
+                </div>
+                </div>
                 <h1>Who Are The Corners?</h1>
                <!--  <div class="bio-wrapper">
                 <ul class="bio-links">
@@ -128,22 +127,12 @@
                 <p class="copyright">&copy; The Corners 2012</p>
                 <p class="credit">Site by <a href="http://kraigh.com">Kraig H.</a></p>
             </footer>
-
             </div>
             </div>
-
-
         </div> <!--/.container-->
-
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
         <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="js/vendor/jquery.fittext.js"></script>
-<!--        <script>
-          $("#responsive_headline").fitText(0.5, { minFontSize: '40px', maxFontSize: '400px' });
-          $("#the").fitText(0.9, { minFontSize: '40px', maxFontSize: '200px' });
-        </script>-->
-        <script src="js/main.js"></script>
         <script src="js/scrollfixed.js"></script>
     </body>
 </html>

@@ -15,10 +15,6 @@
 
 }
 
-html {
-	background: url(../img/ravenna.png) repeat;
-}
-
 body {
 	background: url(../img/bg.jpg) no-repeat center -1000px, #323232;
 	background-size: 1500px;
@@ -128,11 +124,15 @@ color: rgba(0, 0, 0, 0.7);
 	color: #d9d9d9;
 	font-size: 14px;
 	letter-spacing: 1px;
-	padding-right: 40px;
 }
 
 #content-wrapper h2, #content-wrapper h3 {
 	color: rgba(255, 248, 64, 0.8);
+}
+
+.video-wrapper {
+	width: 80%;
+
 }
 
 /*FACEBOOK STUFF*/
@@ -146,11 +146,21 @@ color: rgba(0, 0, 0, 0.7);
 	width: 100%;
 	margin-right: -30px;
 	background-color: rgba(0, 0, 0, 0.6);
+	overflow: hidden;
 }
 
 .main-content {
 	padding-top: 10px;
-	padding-left: 20px;
+}
+
+.main-content h1, .main-content h2, .main-content h3, .main-content p, .main-content .flex-video {
+	margin-left: 30px;
+	margin-right: 20px;
+}
+
+.main-content .album {
+	margin-left: 10px;
+	margin-right: 10px;
 }
 /*
 .bio-wrapper {
@@ -245,13 +255,17 @@ color: rgba(0, 0, 0, 0.7);
 
 footer {
 	margin-bottom: 0px;
-	padding-left: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+
+
 }
 .copyright {
 	float: left;
 }
 .credit {
 	float: right;
+
 }
 
 
