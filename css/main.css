@@ -15,10 +15,14 @@
 
 }
 
+html {
+	background: url(../img/ravenna.png) repeat;
+}
+
 body {
-	background: url(../img/bg.jpg) no-repeat center -1000px #323232;
+	background: url(../img/bg.jpg) no-repeat center -1000px, #323232;
 	background-size: 1500px;
-	
+
 }
 
 img#bg{
@@ -32,21 +36,12 @@ img#bg{
 
 
 .headline-container {
-
 	position: relative;
-	
 	margin-left: auto;
 	margin-right: auto;
-
-	
 	margin-top: 40px;
-
-	
 	text-align: center;
-	
 	width: 760px;
-
-
 
 /*	text-align: center;
 	margin-top: 100px;
@@ -60,34 +55,30 @@ img#bg{
 	font-family: "chinese-rocks",sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	text-shadow: -8px 8px 40px rgba(255, 248, 64, 0.4), 8px -8px 40px rgba(255, 248, 64, 0.4), -8px -8px 40px rgba(255, 248, 64, 0.4), 8px 8px 40px rgba(255, 248, 64, 0.4);
-	color: rgba(0, 0, 0, 0.5);
+/*	text-shadow: -8px 8px 40px rgba(255, 248, 64, 0.1), 8px -8px 40px rgba(255, 248, 64, 0.1), -8px -8px 40px rgba(255, 248, 64, 0.1), 8px 8px 40px rgba(255, 248, 64, 0.1);*/
+	color: rgba(0, 0, 0, 0.7);
 
+}
+
+.headline-container:hover h1 {
+		text-shadow: -8px 8px 80px rgba(255, 248, 64, 0.1), 8px -8px 80px rgba(255, 248, 64, 0.1), -8px -8px 80px rgba(255, 248, 64, 0.1), 8px 8px 80px rgba(255, 248, 64, 0.1);
 }
 
 .headline-container h1#the {
 	-webkit-transform:rotate(-90deg);
 	-moz-transform:rotate(-90deg);
 	-o-transform: rotate(-90deg);
-	
 	font-size: 110px;
 	display: inline-block;
-	
 	position: absolute;
 	left: 0px;
-
-
 }
 
 .headline-container h1#responsive_headline {
-
-
 	font-size: 200px;
 	display: inline;
-	
 	position: absolute;
 	right: 0px;
-
 }
 
 #social-icons {
@@ -102,6 +93,7 @@ img#bg{
 #social-icons ul {
 	list-style: none;
 	display: block;
+	margin-left: 50px;
 }
 
 #social-icons ul li {
@@ -112,28 +104,154 @@ img#bg{
 
 #social-icons li a {
 	font: 80px 'socialicoregular';
-	text-shadow: -8px 8px 40px rgba(255, 248, 64, 0.4), 8px -8px 40px rgba(255, 248, 64, 0.4), -8px -8px 40px rgba(255, 248, 64, 0.4), 8px 8px 40px rgba(255, 248, 64, 0.4);
-	color: rgba(0, 0, 0, 0.5);
+text-shadow: -8px 8px 40px rgba(255, 248, 64, 0.2), 8px -8px 40px rgba(255, 248, 64, 0.2), -8px -8px 40px rgba(255, 248, 64, 0.2), 8px 8px 40px rgba(255, 248, 64, 0.2);
+color: rgba(0, 0, 0, 0.7);
 }
 
-
-
+#social-icons li a:hover {
+	text-shadow: -8px 8px 60px rgba(255, 248, 64, 0.4), 8px -8px 60px rgba(255, 248, 64, 0.4), -8px -8px 60px rgba(255, 248, 64, 0.4), 8px 8px 60px rgba(255, 248, 64, 0.4);
+	text-decoration: none;
+}
 
 #content-wrapper {
 	background-color: rgba(24, 24, 24, 0.47);
-	padding-bottom: 400px;
+	padding-bottom: 10px;
 	margin-top: 10px;
 }
 
 #content-wrapper h1, #content-wrapper p {
 	color: #e4e4e4;
+	text-shadow: -1px -1px 0 #000;
 }
 
+#content-wrapper p {
+	color: #d9d9d9;
+	font-size: 14px;
+	letter-spacing: 1px;
+	padding-right: 40px;
+}
 
+#content-wrapper h2, #content-wrapper h3 {
+	color: rgba(255, 248, 64, 0.8);
+}
 
+/*FACEBOOK STUFF*/
+
+.content-right {
+	margin-left: 0px;
+	padding-top: 10px;
+}
+
+.fb-box {
+	width: 100%;
+	margin-right: -30px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.main-content {
+	padding-top: 10px;
+	padding-left: 20px;
+}
+/*
+.bio-wrapper {
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 140px;
+}
+.bio-links {
+	list-style: none;
+}
+
+.bio-links li {
+	float: left;
+	position: relative;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.bio-links li a {
+	font: 80px 'socialicoregular';
+	text-shadow: -8px 8px 40px rgba(255, 248, 64, 0.2), 8px -8px 40px rgba(255, 248, 64, 0.2), -8px -8px 40px rgba(255, 248, 64, 0.2), 8px 8px 40px rgba(255, 248, 64, 0.2);
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.bio-links li:hover a {
+	text-shadow: -8px 8px 60px rgba(255, 248, 64, 0.4), 8px -8px 60px rgba(255, 248, 64, 0.4), -8px -8px 60px rgba(255, 248, 64, 0.4), 8px 8px 60px rgba(255, 248, 64, 0.4);
+	text-decoration: none;
+}
+
+.bio-links li a .bio-name {
+	font: 14px sans-serif;
+	color: rgba(255, 248, 64, 0.8);
+	letter-spacing: 1px;
+	position: absolute;
+	bottom: -40px;
+	left: 5px;
+}
+
+#chance {
+	left: 0px;
+}
+
+#andy {
+	left: 8px;
+}
+
+.bio-pic {
+	display: block;
+	width: 100px;
+	float: left;
+	position: absolute;
+	top: -15px;
+	left: 1px;
+}*/
+
+.album {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.album .album-middle p {
+	padding-right: 0px !important;
+}
+
+.album-left img {
+	height: 250px;
+	width: 250px;
+	float: right;
+}
+
+.album-links {
+	list-style: none;
+}
+
+.album-links li {
+	float: left;
+	margin-left: 0px;
+	margin-right: 30px;
+}
+
+.album-links li a {
+	font: 80px 'socialicoregular';
+	text-shadow: -8px 8px 40px rgba(255, 248, 64, 0.2), 8px -8px 40px rgba(255, 248, 64, 0.2), -8px -8px 40px rgba(255, 248, 64, 0.2), 8px 8px 40px rgba(255, 248, 64, 0.2);
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.album-links li a:hover {
+	text-shadow: -8px 8px 60px rgba(255, 248, 64, 0.4), 8px -8px 60px rgba(255, 248, 64, 0.4), -8px -8px 60px rgba(255, 248, 64, 0.4), 8px 8px 60px rgba(255, 248, 64, 0.4);
+	text-decoration: none;
+}
 
 footer {
 	margin-bottom: 0px;
+	padding-left: 20px;
+}
+.copyright {
+	float: left;
+}
+.credit {
+	float: right;
 }
 
 
