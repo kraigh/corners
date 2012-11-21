@@ -57,7 +57,7 @@ img#bg{
 }
 
 .headline-container:hover h1 {
-		text-shadow: -8px 8px 80px rgba(255, 248, 64, 0.1), 8px -8px 80px rgba(255, 248, 64, 0.1), -8px -8px 80px rgba(255, 248, 64, 0.1), 8px 8px 80px rgba(255, 248, 64, 0.1);
+		text-shadow: -8px 8px 80px rgba(120, 64, 255, 0.1), 8px -8px 80px rgba(120, 64, 255, 0.1), -8px -8px 80px rgba(120, 64, 255, 0.1), 8px 8px 80px rgba(120, 64, 255, 0.1);
 }
 
 .headline-container h1#the {
@@ -100,12 +100,12 @@ img#bg{
 
 #social-icons li a {
 	font: 80px 'socialicoregular';
-text-shadow: -8px 8px 40px rgba(255, 248, 64, 0.2), 8px -8px 40px rgba(255, 248, 64, 0.2), -8px -8px 40px rgba(255, 248, 64, 0.2), 8px 8px 40px rgba(255, 248, 64, 0.2);
+text-shadow: -8px 8px 40px rgba(120, 64, 255, 0.2), 8px -8px 40px rgba(120, 64, 255, 0.2), -8px -8px 40px rgba(120, 64, 255, 0.2), 8px 8px 40px rgba(120, 64, 255, 0.2);
 color: rgba(0, 0, 0, 0.7);
 }
 
 #social-icons li a:hover {
-	text-shadow: -8px 8px 60px rgba(255, 248, 64, 0.4), 8px -8px 60px rgba(255, 248, 64, 0.4), -8px -8px 60px rgba(255, 248, 64, 0.4), 8px 8px 60px rgba(255, 248, 64, 0.4);
+	text-shadow: -8px 8px 60px rgba(120, 64, 255, 0.4), 8px -8px 60px rgba(120, 64, 255, 0.4), -8px -8px 60px rgba(120, 64, 255, 0.4), 8px 8px 60px rgba(120, 64, 255, 0.4);
 	text-decoration: none;
 }
 
@@ -127,7 +127,7 @@ color: rgba(0, 0, 0, 0.7);
 }
 
 #content-wrapper h2, #content-wrapper h3 {
-	color: rgba(255, 248, 64, 0.8);
+	color: #d9d9d9;
 }
 
 .video-wrapper {
@@ -244,12 +244,12 @@ color: rgba(0, 0, 0, 0.7);
 
 .album-links li a {
 	font: 80px 'socialicoregular';
-	text-shadow: -8px 8px 40px rgba(255, 248, 64, 0.2), 8px -8px 40px rgba(255, 248, 64, 0.2), -8px -8px 40px rgba(255, 248, 64, 0.2), 8px 8px 40px rgba(255, 248, 64, 0.2);
+	text-shadow: -8px 8px 40px rgba(120, 64, 255, 0.2), 8px -8px 40px rgba(120, 64, 255, 0.2), -8px -8px 40px rgba(120, 64, 255, 0.2), 8px 8px 40px rgba(120, 64, 255, 0.2);
 	color: rgba(0, 0, 0, 0.7);
 }
 
 .album-links li a:hover {
-	text-shadow: -8px 8px 60px rgba(255, 248, 64, 0.4), 8px -8px 60px rgba(255, 248, 64, 0.4), -8px -8px 60px rgba(255, 248, 64, 0.4), 8px 8px 60px rgba(255, 248, 64, 0.4);
+	text-shadow: -8px 8px 60px rgba(120, 64, 255, 0.4), 8px -8px 60px rgba(120, 64, 255, 0.4), -8px -8px 60px rgba(120, 64, 255, 0.4), 8px 8px 60px rgba(120, 64, 255, 0.4);
 	text-decoration: none;
 }
 
