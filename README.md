@@ -1,2 +1,5 @@
-Website for THE CORNERS
-by Kraig Hufstedler (kraigory@gmail.com)
+Project by Kraig Hufstedler
+
+Client: The Corners
+
+URL: http://listentothecorners.com/
